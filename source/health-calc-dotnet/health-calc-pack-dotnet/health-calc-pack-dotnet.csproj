@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>health_calc_pack_dotnet</RootNamespace>
+  </PropertyGroup>
+
+</Project>
