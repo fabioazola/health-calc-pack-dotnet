@@ -18,7 +18,7 @@ namespace health_calc_test_xunit
             var Expected = 30.12;
 
             //Act
-            var Result = Imc.Calc(Heigth, Weigth);
+            var Result = Imc.CalcularIMC(Heigth, Weigth);
 
             //Assert
             Assert.Equal(Expected, Result);
@@ -36,10 +36,10 @@ namespace health_calc_test_xunit
             var ExpectedMax = 30.14;
 
             //Act
-            var Result = Imc.Calc(Heigth, Weigth);
+            var Result = Imc.CalcularIMC(Heigth, Weigth);
 
             //Assert
-            Assert.InRange(Result, ExpectedMin, ExpectedMax);
+            Assert.InRange(Result,ExpectedMin,ExpectedMax);
         }
 
         [Fact]
@@ -52,7 +52,7 @@ namespace health_calc_test_xunit
             var Expected = double.NaN;
 
             //Act
-            var Result = Imc.Calc(Heigth, Weigth);
+            var Result = Imc.CalcularIMC(Heigth, Weigth);
 
             //Assert
             Assert.Equal(Expected, Result);
@@ -68,7 +68,9 @@ namespace health_calc_test_xunit
             var Weigth = 85;
 
             //Act and Assert
-            Assert.Throws<Exception>(() => Imc.Calc(Heigth, Weigth));
+            Assert.Throws<Exception>(() => Imc.CalcularIMC(Heigth, Weigth));
         }
+
+
     }
 }

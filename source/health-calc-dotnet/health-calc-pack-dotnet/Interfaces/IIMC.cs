@@ -8,10 +8,9 @@ namespace health_calc_pack_dotnet.Interfaces
 {
     public interface IIMC
     {
-        double CalcularIMC(double Heigth, double Wedding);
-        string RetornarClassificacaoIMC(double IMC);
-        bool validarDados(double Heigth, double Wedding);
-
+        double Calc(double Height, double Weigth);
+        string GetIMCCategory(double IMC);
+        bool IsValiData(double Height, double Weight);
 
     }
 }
