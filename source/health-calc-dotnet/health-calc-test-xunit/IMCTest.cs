@@ -1,8 +1,6 @@
 
 using Xunit;
-
 using health_calc_pack_dotnet;
-using System;
 
 namespace health_calc_test_xunit
 {
@@ -60,15 +58,47 @@ namespace health_calc_test_xunit
 
 
         [Fact]
-        public void When_RequestIMCCalcWithInvalidData_ThenReturnIMCException()
+        public void When_RequestIMCCalcWithInvalidData_ThenReturnInfinity()
         {
             //Arrange
             var Imc = new IMC();
             var Heigth = 0;
             var Weigth = 85;
+            var Expected = double.NegativeInfinity;
 
-            //Act and Assert
-            Assert.Throws<Exception>(() => Imc.Calc(Heigth, Weigth));
+            //Act
+            var Result = Imc.Calc(Heigth, Weigth);
+
+            //Assert
+            Assert.Equal(Expected, Result);
         }
+
+
+        [Theory]
+        [InlineData(17.5,"Abaixo do peso")]
+        [InlineData(18.49, "Abaixo do peso")]
+        [InlineData(18.50, "Peso normal")]
+        [InlineData(24.99, "Peso normal")]
+        [InlineData(25, "Pré-obesidade")]
+        [InlineData(29.99, "Pré-obesidade")]
+        [InlineData(30, "Obesidade Grau 1")]
+        [InlineData(34.99, "Obesidade Grau 1")]
+        [InlineData(35, "Obesidade Grau 2")]
+        [InlineData(35.99, "Obesidade Grau 2")]
+        [InlineData(40, "Obesidade Grau 3")]
+        [InlineData(45, "Obesidade Grau 3")]
+
+        public void When_RequestIMCCategory_ThenReturnCategory(double IMC, string ExpectedResult)
+        {
+            //Arrange
+            var Imc = new IMC();
+
+            //Act
+            string Result = Imc.GetIMCCategory(IMC);
+
+            //Assert
+            Assert.Equal(ExpectedResult, Result);
+        }
+
     }
 }

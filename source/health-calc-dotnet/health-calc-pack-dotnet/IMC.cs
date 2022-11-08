@@ -5,7 +5,7 @@ namespace health_calc_pack_dotnet
 {
     public class IMC : IIMC
     {
-        double IIMC.Calc(double Height, double Weigth)
+        public double Calc(double Height, double Weigth)
         {
             try
             {
@@ -18,12 +18,7 @@ namespace health_calc_pack_dotnet
             }
         }
 
-        public object Calc(double heigth, int weigth)
-        {
-            throw new NotImplementedException();
-        }
-
-        string IIMC.GetIMCCategory(double IMC)
+        public string GetIMCCategory(double IMC)
         {
             //Menor que 18.5 - Abaixo do peso;
             //Entre 18.5 e 24.9 - Peso normal;
@@ -39,30 +34,23 @@ namespace health_calc_pack_dotnet
             else if (IMC >= 18.5 && IMC < 25)
                 Result = "Peso normal";
             else if (IMC >= 25 && IMC < 30)
-                Result = "Pré-obsidade";
+                Result = "Pré-obesidade";
             else if (IMC >= 30 && IMC < 35)
                 Result = "Obesidade Grau 1";
             else if (IMC >= 35 && IMC < 40)
                 Result = "Obesidade Grau 2";
-            else if (IMC > 40)
+            else if (IMC >= 40)
                 Result = "Obesidade Grau 3";
 
             return Result;
         }
 
-        bool IIMC.IsValiData(double Height, double Weight)
+        public bool IsValiData(double Height, double Weight)
         {
-            throw new NotImplementedException();
-        }
-
-        public object CalcularIMC(double heigth, int weigth)
-        {
-            throw new NotImplementedException();
-        }
-
-        public object Calc(double heigth, double weigth)
-        {
-            throw new NotImplementedException();
+            if (Height <= 0 || Weight <= 0)
+                return false;
+            else
+                return true;
         }
     }
 }
