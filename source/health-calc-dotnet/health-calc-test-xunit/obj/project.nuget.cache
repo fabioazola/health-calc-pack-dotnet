@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UDULUvK08TESS7c85XrOLBB0TGhx8xilWn/NxbQzw6Urb0oAczWVSTjrRZtHgdNagmgtcTao9zrqQiEXihNP6w==",
+  "dgSpecHash": "E3AdcCB1mTLxi7Z/HJCGdm/0C8lhlmJqhG2HlHwwbO7TpXgU3zHhkpwC9axDMiBBFHQrDxXe8+TCMt5pgZZZIg==",
   "success": true,
   "projectFilePath": "C:\\projetos\\Health_Calc\\health-calc-pack-dotnet\\source\\health-calc-dotnet\\health-calc-test-xunit\\health-calc-test-xunit.csproj",
   "expectedPackageFiles": [
