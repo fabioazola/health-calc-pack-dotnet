@@ -77,7 +77,7 @@ namespace health_calc_test_xunit
         [InlineData(NivelAtividadeFisicaEnum.ModeradamenteAtivo, 340)]
         [InlineData(NivelAtividadeFisicaEnum.BastanteAtivo, 595)]
         [InlineData(NivelAtividadeFisicaEnum.ExtremanteAtivo, 595)]
-
+        public void When_RequestMacronutrientsCalcWithValidDataFor
 
 
 

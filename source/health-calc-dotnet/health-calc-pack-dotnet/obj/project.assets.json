@@ -11,7 +11,7 @@
     "C:\\Users\\fabioazola\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
       "projectUniqueName": "C:\\projetos\\Health_Calc\\health-calc-pack-dotnet\\source\\health-calc-dotnet\\health-calc-pack-dotnet\\health-calc-pack-dotnet.csproj",
       "projectName": "health-calc-pack-dotnet",

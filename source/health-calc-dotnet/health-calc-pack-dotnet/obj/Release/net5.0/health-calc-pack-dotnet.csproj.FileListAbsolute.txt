@@ -1,0 +1,12 @@
+C:\projetos\Health_Calc\health-calc-pack-dotnet\source\health-calc-dotnet\health-calc-pack-dotnet\obj\Release\net5.0\health-calc-pack-dotnet.csproj.AssemblyReference.cache
+C:\projetos\Health_Calc\health-calc-pack-dotnet\source\health-calc-dotnet\health-calc-pack-dotnet\obj\Release\net5.0\health-calc-pack-dotnet.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\Health_Calc\health-calc-pack-dotnet\source\health-calc-dotnet\health-calc-pack-dotnet\obj\Release\net5.0\health-calc-pack-dotnet.AssemblyInfoInputs.cache
+C:\projetos\Health_Calc\health-calc-pack-dotnet\source\health-calc-dotnet\health-calc-pack-dotnet\obj\Release\net5.0\health-calc-pack-dotnet.AssemblyInfo.cs
+C:\projetos\Health_Calc\health-calc-pack-dotnet\source\health-calc-dotnet\health-calc-pack-dotnet\obj\Release\net5.0\health-calc-pack-dotnet.csproj.CoreCompileInputs.cache
+C:\projetos\Health_Calc\health-calc-pack-dotnet\source\health-calc-dotnet\health-calc-pack-dotnet\bin\Release\net5.0\health-calc-pack-dotnet.deps.json
+C:\projetos\Health_Calc\health-calc-pack-dotnet\source\health-calc-dotnet\health-calc-pack-dotnet\bin\Release\net5.0\health-calc-pack-dotnet.dll
+C:\projetos\Health_Calc\health-calc-pack-dotnet\source\health-calc-dotnet\health-calc-pack-dotnet\bin\Release\net5.0\ref\health-calc-pack-dotnet.dll
+C:\projetos\Health_Calc\health-calc-pack-dotnet\source\health-calc-dotnet\health-calc-pack-dotnet\bin\Release\net5.0\health-calc-pack-dotnet.pdb
+C:\projetos\Health_Calc\health-calc-pack-dotnet\source\health-calc-dotnet\health-calc-pack-dotnet\obj\Release\net5.0\health-calc-pack-dotnet.dll
+C:\projetos\Health_Calc\health-calc-pack-dotnet\source\health-calc-dotnet\health-calc-pack-dotnet\obj\Release\net5.0\ref\health-calc-pack-dotnet.dll
+C:\projetos\Health_Calc\health-calc-pack-dotnet\source\health-calc-dotnet\health-calc-pack-dotnet\obj\Release\net5.0\health-calc-pack-dotnet.pdb

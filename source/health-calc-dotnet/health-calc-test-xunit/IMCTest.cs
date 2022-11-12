@@ -1,6 +1,7 @@
 
 using Xunit;
 using health_calc_pack_dotnet;
+using System;
 
 namespace health_calc_test_xunit
 {
@@ -56,21 +57,29 @@ namespace health_calc_test_xunit
             Assert.Equal(Expected, Result);
         }
 
-
         [Fact]
-        public void When_RequestIMCCalcWithInvalidData_ThenReturnInfinity()
+        public void When_RequestIMCCalcWithInvalidAllData_ThenThrowException()
         {
             //Arrange
             var Imc = new IMC();
-            var Heigth = 0;
-            var Weigth = 85;
-            var Expected = double.NegativeInfinity;
+            var Heigth = 0.0;
+            var Weigth = 0.0;
 
-            //Act
-            var Result = Imc.Calc(Heigth, Weigth);
+            //Act e Assert
+            Assert.Throws<Exception>(() => Imc.Calc(Heigth, Weigth));
+        }
 
-            //Assert
-            Assert.Equal(Expected, Result);
+
+        [Fact]
+        public void When_RequestIMCCalcWithInvalidData_ThenThrowException()
+        {
+            //Arrange
+            var Imc = new IMC();
+            var Heigth = 0.0;
+            var Weigth = 85.0;
+
+            //Act e Assert
+            Assert.Throws<Exception>(() => Imc.Calc(Heigth, Weigth));
         }
 
 
@@ -93,12 +102,30 @@ namespace health_calc_test_xunit
             //Arrange
             var Imc = new IMC();
 
-            //Act
+            //Act 
             string Result = Imc.GetIMCCategory(IMC);
 
             //Assert
             Assert.Equal(ExpectedResult, Result);
         }
 
+
+        [Theory]
+        [InlineData(0, 1.68)]
+        [InlineData(85, 0)]
+        [InlineData(0, 0)]
+        public void When_Invalidade_ThenReturnValidationResultFalse(double Weight, double Height)
+        {
+            //Arrange
+            var Imc = new IMC();
+            var _Height = Height;
+            var _Weight = Weight;
+
+            //Act
+            var Result = Imc.IsValiData(_Height, _Weight);
+
+            //Assert
+            Assert.False(Result);
+        }
     }
 }

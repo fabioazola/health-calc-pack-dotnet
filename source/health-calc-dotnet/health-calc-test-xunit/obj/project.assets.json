@@ -1671,7 +1671,7 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "health-calc-pack-dotnet/1.0.0": {
+      "health-calc-pack-dotnet/1.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
@@ -5917,7 +5917,7 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "health-calc-pack-dotnet/1.0.0": {
+    "health-calc-pack-dotnet/1.0.1": {
       "type": "project",
       "path": "../health-calc-pack-dotnet/health-calc-pack-dotnet.csproj",
       "msbuildProject": "../health-calc-pack-dotnet/health-calc-pack-dotnet.csproj"
@@ -5927,7 +5927,7 @@
     "net5.0": [
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "coverlet.collector >= 3.0.2",
-      "health-calc-pack-dotnet >= 1.0.0",
+      "health-calc-pack-dotnet >= 1.0.1",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
     ]

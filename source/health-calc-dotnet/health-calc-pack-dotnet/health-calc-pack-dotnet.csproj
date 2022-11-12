@@ -5,6 +5,12 @@
     <RootNamespace>health_calc_pack_dotnet</RootNamespace>
     <ApplicationIcon>health_care_shield.ico</ApplicationIcon>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Product>Health Calc</Product>
+    <Description>Biblioteca para Cálculo de Saúde (IMC e Macronutrientes)</Description>
+    <PackageProjectUrl />
+    <RepositoryUrl>https://github.com/fabioazola/health-calc-pack-dotnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>

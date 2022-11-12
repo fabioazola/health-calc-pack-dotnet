@@ -7,15 +7,11 @@ namespace health_calc_pack_dotnet
     {
         public double Calc(double Height, double Weigth)
         {
-            try
-            {
-                var Result = Math.Round(Weigth / (Math.Pow(Height, 2)), 2);
-                return Result;
-            }
-            catch
-            {
-                throw;
-            }
+            if (!IsValiData(Height, Weigth))
+                throw new Exception("Invalid Parameters!");
+            
+            var Result = Math.Round(Weigth / (Math.Pow(Height, 2)), 2);
+               return Result;
         }
 
         public string GetIMCCategory(double IMC)
