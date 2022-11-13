@@ -35,7 +35,7 @@ namespace health_calc_test_xunit
                 ObjetivoFisico);
 
             //Assert
-            Assert.Equal(Expected.Carboidrato, Result.Carboidratos);
+            Assert.Equal(Expected.Carboidratos, Result.Carboidratos);
             Assert.Equal(Expected.Proteinas, Result.Proteinas);
             Assert.Equal(Expected.Gorduras, Result.Gorduras);
         }
@@ -77,10 +77,37 @@ namespace health_calc_test_xunit
         [InlineData(NivelAtividadeFisicaEnum.ModeradamenteAtivo, 340)]
         [InlineData(NivelAtividadeFisicaEnum.BastanteAtivo, 595)]
         [InlineData(NivelAtividadeFisicaEnum.ExtremanteAtivo, 595)]
-        public void When_RequestMacronutrientsCalcWithValidDataFor
+        public void When_RequestMacronutrientsCalcWithValidDataForBuking_ThenReturnResult(
+            NivelAtividadeFisicaEnum nivelAtividadeFisica,
+            int Carboidratos)
+        {
+            //Arrange
+            var MacronutrientesObj = new Macronutriente();
+            var Sexo = SexoEnum.Masculino;
+            var Height = 1.68;
+            var Weight = 85;
+            var ObjetoFisico = ObjetivoFisicoEnum.Bucking;
 
+            var Expected = new MacronutrienteModel()
+            {
+                Carboidratos = Carboidratos,
+                Proteinas = 170,
+                Gorduras = 170
+            };
 
+            //Act
+            var Result = MacronutrientesObj.Calc(
+                Sexo,
+                Height,
+                Weight,
+                nivelAtividadeFisica,
+                ObjetoFisico);
 
+            //Assert
+            Assert.Equal(Expected.Carboidratos, Result.Carboidratos);
+            Assert.Equal(Expected.Proteinas, Result.Proteinas);
+            Assert.Equal(Expected.Gorduras, Result.Gorduras);
+        }
 
     }
 }

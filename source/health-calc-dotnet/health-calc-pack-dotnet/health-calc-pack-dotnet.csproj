@@ -11,6 +11,7 @@
     <RepositoryUrl>https://github.com/fabioazola/health-calc-pack-dotnet</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <Version>1.0.1</Version>
+    <PackageId>health-calc-pack_</PackageId>
   </PropertyGroup>
 
 </Project>

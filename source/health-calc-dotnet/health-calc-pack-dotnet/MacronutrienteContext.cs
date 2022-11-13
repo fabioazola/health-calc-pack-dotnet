@@ -12,7 +12,7 @@ namespace health_calc_pack_dotnet
     {
         private IMacronutrienteStrategy MacronutrienteStrategy;
 
-        /*public MacronutrienteContext(IMacronutrienteStrategy strategy)
+        public MacronutrienteContext(IMacronutrienteStrategy strategy)
         {
             MacronutrienteStrategy = strategy;
         }
@@ -25,7 +25,7 @@ namespace health_calc_pack_dotnet
         public MacronutrienteModel Execute (double Weight)
         {
             return MacronutrienteStrategy.Calc(Weight);
-        }*/
+        }
 
     }
 }
