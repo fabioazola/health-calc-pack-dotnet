@@ -11,10 +11,10 @@
     "C:\\Users\\fabioazola\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.1",
+    "version": "2.0.0",
     "restore": {
       "projectUniqueName": "C:\\projetos\\Health_Calc\\health-calc-pack-dotnet\\source\\health-calc-dotnet\\health-calc-pack-dotnet\\health-calc-pack-dotnet.csproj",
-      "projectName": "health-calc-pack_",
+      "projectName": "health_calc_pack_dotnet_by_fabioazola",
       "projectPath": "C:\\projetos\\Health_Calc\\health-calc-pack-dotnet\\source\\health-calc-dotnet\\health-calc-pack-dotnet\\health-calc-pack-dotnet.csproj",
       "packagesPath": "C:\\Users\\fabioazola\\.nuget\\packages\\",
       "outputPath": "C:\\projetos\\Health_Calc\\health-calc-pack-dotnet\\source\\health-calc-dotnet\\health-calc-pack-dotnet\\obj\\",

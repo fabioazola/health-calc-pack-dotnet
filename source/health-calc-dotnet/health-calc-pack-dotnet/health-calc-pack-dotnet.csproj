@@ -10,8 +10,8 @@
     <PackageProjectUrl />
     <RepositoryUrl>https://github.com/fabioazola/health-calc-pack-dotnet</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Version>1.0.1</Version>
-    <PackageId>health-calc-pack_</PackageId>
+    <Version>2.0.0</Version>
+    <PackageId>health_calc_pack_dotnet_by_fabioazola</PackageId>
   </PropertyGroup>
 
 </Project>

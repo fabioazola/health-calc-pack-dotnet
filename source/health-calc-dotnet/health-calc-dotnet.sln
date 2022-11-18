@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "health-calc-pack-dotnet", "health-calc-pack-dotnet\health-calc-pack-dotnet.csproj", "{857BFFE6-CBB0-4093-992B-AE943DEE642E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "health-calc-test-xunit", "health-calc-test-xunit\health-calc-test-xunit.csproj", "{FF91F5AA-8124-4E75-914F-2483076DE23D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "health-calc-test-xunit", "health-calc-test-xunit\health-calc-test-xunit.csproj", "{FF91F5AA-8124-4E75-914F-2483076DE23D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "health-calc-console-dotnet", "health-calc-console-dotnet\health-calc-console-dotnet.csproj", "{D92DB52C-34CE-45A7-B62F-538DB12AA3FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FF91F5AA-8124-4E75-914F-2483076DE23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF91F5AA-8124-4E75-914F-2483076DE23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF91F5AA-8124-4E75-914F-2483076DE23D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92DB52C-34CE-45A7-B62F-538DB12AA3FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92DB52C-34CE-45A7-B62F-538DB12AA3FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92DB52C-34CE-45A7-B62F-538DB12AA3FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92DB52C-34CE-45A7-B62F-538DB12AA3FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

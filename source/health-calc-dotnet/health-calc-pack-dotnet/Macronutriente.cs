@@ -16,11 +16,13 @@ namespace health_calc_pack_dotnet
 
         public bool IsValidData(double Weight)
         {
-            if (Weight <= MIN_WEIGHT)
+            if (Weight <= MIN_WEIGTH)
                 return false;
+
+            return true;
         }
 
-        public MacronutrienteModel Calc(
+         public MacronutrienteModel Calc(
                                         SexoEnum Sexo, 
                                         double Height, 
                                         double Weight, 
@@ -51,6 +53,5 @@ namespace health_calc_pack_dotnet
 
             return Result;
         }
-
     }
 }

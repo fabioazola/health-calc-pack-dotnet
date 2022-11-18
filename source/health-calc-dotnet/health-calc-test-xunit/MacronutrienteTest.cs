@@ -53,9 +53,9 @@ namespace health_calc_test_xunit
 
             var Expected = new MacronutrienteModel()
             {
-                Carboidratos = 170,
+                Carboidratos = 595,
                 Proteinas = 170,
-                Gorduras = 85
+                Gorduras = 170
             };
 
             //Act

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QQWig03RVmLAPAdN+M5Kk50rhBV5c3icY3xlXzbVfje6VQGaH1KfHaMTdM53M/AEE2BkIwH2zt4KWtw4upgnSw==",
+  "success": true,
+  "projectFilePath": "C:\\projetos\\Health_Calc\\health-calc-pack-dotnet\\source\\health-calc-dotnet\\health-calc-console-dotnet\\health-calc-console-dotnet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fabioazola\\.nuget\\packages\\health-calc-pack_fabioazola\\1.0.1\\health-calc-pack_fabioazola.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

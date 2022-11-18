@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "health-calc-console-dotnet/1.0.0": {
+        "dependencies": {
+          "health-calc-pack_fabioazola": "1.0.1"
+        },
+        "runtime": {
+          "health-calc-console-dotnet.dll": {}
+        }
+      },
+      "health-calc-pack_fabioazola/1.0.1": {
+        "runtime": {
+          "lib/net5.0/health-calc-pack-dotnet.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "health-calc-console-dotnet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "health-calc-pack_fabioazola/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wpPrs5HEy36okytfHr5m50lM2Ru3JgCfTrvfiyESn6r5LK5OgtoBOahd16IJWFI2Vpg3jP4Lk4FAAI3XVc5QsQ==",
+      "path": "health-calc-pack_fabioazola/1.0.1",
+      "hashPath": "health-calc-pack_fabioazola.1.0.1.nupkg.sha512"
+    }
+  }
+}
